@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{swish}prestashop>swish_27a84eaeba1c4495b698a670d327959d'] = 'Swish';
+$_MODULE['<{swish}prestashop>swish_9f7497f4613e5b16f5b43cee575aed13'] = 'Ta emot betalningar med Swish.';
+$_MODULE['<{swish}prestashop>swish_d81bd2fb9d24368bd6f81012175b4265'] = 'Väntar på betalning med Swish';
+$_MODULE['<{swish}prestashop>getcontent_173bc7e58e9d9405513c62fe9c776b2e'] = 'Swish kontoinnehavare';
+$_MODULE['<{swish}prestashop>getcontent_a160778f5daab95cca8b29ac242094ea'] = 'Swishnummer';
+$_MODULE['<{swish}prestashop>getcontent_01998051779c9f5a642eadd4baad1948'] = 'Inställningar för Swish';
+$_MODULE['<{swish}prestashop>getcontent_c9cc8cce247e49bae79f15173ce97354'] = 'Spara';
+$_MODULE['<{swish}prestashop>payment_bfdf7014ab287cd93c0b4b8378b432b2'] = 'Swishbetalning';
+$_MODULE['<{swish}prestashop>payment_f1d3b424cd68795ecaa552883759aceb'] = 'Orderinformation';
+$_MODULE['<{swish}prestashop>payment_879f6b8877752685a966564d072f498f'] = 'Din varukorg är tom';
+$_MODULE['<{swish}prestashop>payment_ed9573ac2a7f813c77287b7965ce3eae'] = 'Du har valt att betala med Swish.';
+$_MODULE['<{swish}prestashop>payment_c884ed19483d45970c5bf23a681e2dd2'] = 'Här är en kort summering av din order:';
+$_MODULE['<{swish}prestashop>payment_e2867a925cba382f1436d1834bb52a1c'] = 'Totalt belopp är';
+$_MODULE['<{swish}prestashop>payment_1f87346a16cf80c372065de3c54c86d9'] = '(inkl moms)';
+$_MODULE['<{swish}prestashop>payment_fdb74d46f4ddc49792e7f6dc768ab850'] = 'Information om Swishbetalningen kommer på nästa sida.';
+$_MODULE['<{swish}prestashop>payment_0b5320ab8d574d4abadab68bdec15af9'] = 'Bekräfta din order genom att klicka på \"Bekräfta order\"';
+$_MODULE['<{swish}prestashop>payment_569fd05bdafa1712c4f6be5b153b8418'] = 'Ändra betalningsmetod';
+$_MODULE['<{swish}prestashop>payment_46b9e3665f187c739c55983f757ccda0'] = 'Bekräfta order';
+$_MODULE['<{swish}prestashop>displaypayment_581b6c367cb557b572a44d9d16b7b661'] = 'Betala med Swish';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_5075960534c9749195e69af7e972c82a'] = 'Din beställning från %s är färdig.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_b4a52867f5aca11ef6c00d56fed0e914'] = 'Nu måste du betala med Swish från din mobil/läsplatta.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_4c717ff34087eb343280c074df08f630'] = 'Starta Swish och ange följande värden:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_3841356b3344dcaf14dbccbe6e2b6fae'] = 'Mottagare:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_6702a6e3bc2dce95c3e3b61fe578f29c'] = 'Belopp:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_940663fd4428d2c86f9a4780b6574028'] = 'Meddelande:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_c0af685a55a54c5e68a8b50ddcdb0f0d'] = 'Mottagaren som listas i Swish skall vara';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_dc434a7fd16b078f2c0c5ec2894e65cf'] = 'Informationen ovan har också skickats i ett separat mail till dig.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_b9a1cae09e5754424e33764777cfcaa0'] = 'Så fort vi har tagit emot betalningen så skickar vi din beställning.';
+$_MODULE['<{swish}prestashop>getcontent_c888438d14855d7d96a2724ee9c306bd'] = 'Inställningarna uppdaterades';

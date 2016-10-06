@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{swish}prestashop>swish_27a84eaeba1c4495b698a670d327959d'] = 'Swish';
+$_MODULE['<{swish}prestashop>swish_9f7497f4613e5b16f5b43cee575aed13'] = 'Accept payments with Swish.';
+$_MODULE['<{swish}prestashop>swish_d81bd2fb9d24368bd6f81012175b4265'] = 'Awaiting Swish payment';
+$_MODULE['<{swish}prestashop>getcontent_173bc7e58e9d9405513c62fe9c776b2e'] = ' Swish owner';
+$_MODULE['<{swish}prestashop>getcontent_a160778f5daab95cca8b29ac242094ea'] = 'Swish number';
+$_MODULE['<{swish}prestashop>getcontent_01998051779c9f5a642eadd4baad1948'] = 'Swish configuration';
+$_MODULE['<{swish}prestashop>getcontent_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
+$_MODULE['<{swish}prestashop>payment_bfdf7014ab287cd93c0b4b8378b432b2'] = 'Swish Payment';
+$_MODULE['<{swish}prestashop>payment_f1d3b424cd68795ecaa552883759aceb'] = 'Order summary';
+$_MODULE['<{swish}prestashop>payment_879f6b8877752685a966564d072f498f'] = 'Your shopping cart is empty.';
+$_MODULE['<{swish}prestashop>payment_ed9573ac2a7f813c77287b7965ce3eae'] = 'You have chosen to pay with Swish.';
+$_MODULE['<{swish}prestashop>payment_c884ed19483d45970c5bf23a681e2dd2'] = 'Here is a short summary of your order:';
+$_MODULE['<{swish}prestashop>payment_e2867a925cba382f1436d1834bb52a1c'] = 'The total amount of your order is';
+$_MODULE['<{swish}prestashop>payment_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
+$_MODULE['<{swish}prestashop>payment_fdb74d46f4ddc49792e7f6dc768ab850'] = 'Swish payment information will be displayed on the next page.';
+$_MODULE['<{swish}prestashop>payment_0b5320ab8d574d4abadab68bdec15af9'] = 'Please confirm your order by clicking \"I confirm my order\"';
+$_MODULE['<{swish}prestashop>payment_569fd05bdafa1712c4f6be5b153b8418'] = 'Other payment methods';
+$_MODULE['<{swish}prestashop>payment_46b9e3665f187c739c55983f757ccda0'] = 'I confirm my order';
+$_MODULE['<{swish}prestashop>displaypayment_581b6c367cb557b572a44d9d16b7b661'] = ' Pay with Swish';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_5075960534c9749195e69af7e972c82a'] = 'Your order from %s is complete.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_b4a52867f5aca11ef6c00d56fed0e914'] = 'Now you need to pay the order using Swish on your mobile device.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_4c717ff34087eb343280c074df08f630'] = 'Start Swish and enter the following values:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_3841356b3344dcaf14dbccbe6e2b6fae'] = 'Recipient:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_6702a6e3bc2dce95c3e3b61fe578f29c'] = 'Amount:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_940663fd4428d2c86f9a4780b6574028'] = 'Message:';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_c0af685a55a54c5e68a8b50ddcdb0f0d'] = 'The recipient listed in Swish should be';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_dc434a7fd16b078f2c0c5ec2894e65cf'] = 'The above information has also been sent to you in a separate mail.';
+$_MODULE['<{swish}prestashop>displaypaymentreturn_b9a1cae09e5754424e33764777cfcaa0'] = 'Your order will be sent as soon as we receive payment.';
+$_MODULE['<{swish}prestashop>getcontent_c888438d14855d7d96a2724ee9c306bd'] = 'Settings updated';
