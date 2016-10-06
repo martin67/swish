@@ -2,7 +2,7 @@
 
 class SwishPaymentModuleFrontController extends ModuleFrontController
 {
-	public $ssl = true;
+    public $ssl = true;
 
     private function checkCurrency()
     {
@@ -10,37 +10,41 @@ class SwishPaymentModuleFrontController extends ModuleFrontController
         $currency_order = new Currency($this->context->cart->id_currency);
         $currencies_module = $this->module->getCurrency($this->context->cart->id_currency);
         // Check if cart currency is one of the enabled currencies
-        if (is_array($currencies_module))
-            foreach ($currencies_module as $currency_module)
-                if ($currency_order->id == $currency_module['id_currency'])
+        if (is_array($currencies_module)) {
+            foreach ($currencies_module as $currency_module) {
+                if ($currency_order->id == $currency_module['id_currency']) {
                     return true;
+                }
+            }
+        }
         // Return false otherwise
         return false;
     }
 
-	public function initContent()
-	{
+    public function initContent()
+    {
         // Disable left and right column
-		$this->display_column_left = false;
+        $this->display_column_left = false;
         $this->display_column_right = false;
 
         // Call parent init content method
-		parent::initContent();
+        parent::initContent();
 
         // Check if currency is accepted
-        if (!$this->checkCurrency())
+        if (!$this->checkCurrency()) {
             Tools::redirect('index.php?controller=order');
+        }
 
         // Assign data to Smarty
         $this->context->smarty->assign(array(
                                              'nb_products' => $this->context->cart->nbProducts(),
                                              'cart_currency' => $this->context->cart->id_currency,
-                                             'currencies' => $this->module->getCurrency((int)$this->context->cart->id_currency),
+                                             'currencies' => $this->module->getCurrency((int) $this->context->cart->id_currency),
                                              'total_amount' => $this->context->cart->getOrderTotal(true, Cart::BOTH),
                                              'path' => $this->module->getPathUri(),
                                              ));
 
-		// Set template
-		$this->setTemplate('payment.tpl');
-	}
+        // Set template
+        $this->setTemplate('payment.tpl');
+    }
 }
