@@ -110,11 +110,11 @@
 						<p style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
 							You have selected to pay by Swish.						</p>
 						<span style="color:#777">
-							Here are the details for your Swish transfer:<br />
-							<span style="color:#333"><strong>Amount:</strong></span> {total_paid}<br />
-							<span style="color:#333"><strong>Account owner:</strong></span> {bankwire_owner}<br />
-							<span style="color:#333"><strong>Account details:</strong></span> {bankwire_details}<br />
-							<span style="color:#333"><strong>Bank address:</strong></span> {bankwire_address}
+							Here are the details for your Swish transfer:<br /><br />
+							Recipient: <span style="color:#333"><strong>{swish_number}</strong></span><br />
+							Amount: <span style="color:#333"><strong>{total_paid}</strong></span><br />
+							Message: <span style="color:#333"><strong>{order_name}</strong></span><br /><br />
+                            The recipient listed in Swish should be {swish_owner}<br />
 						</span>
 					</font>
 				</td>
