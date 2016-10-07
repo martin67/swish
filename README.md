@@ -18,3 +18,5 @@ Languages supported: English, Swedish
 5. Select which countries you want to enable it for, under Modules / Payment
 6. You need to fix the Swedish translation for the order state name (this is also the subject of the mail that goes out). I couldn't find a way to do it in code... This is done under Orders / Statuses.
 
+##Compatibility
+I've tested it with Prestashop 1.6. I think it should work for 1.5 as well.
