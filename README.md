@@ -6,4 +6,4 @@ The module is a variant of the banktransfer module, i.e. the user selects the pa
 
 The module will also send a mail to the customer with details for the Swish payment.
 
-Languages supportd: English, Swedish
+Languages supported: English, Swedish
