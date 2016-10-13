@@ -60,12 +60,12 @@ class SwishPaymentModuleFrontController extends ModuleFrontController
 
         // Assign data to Smarty
         $this->context->smarty->assign(array(
-                                             'nb_products' => $this->context->cart->nbProducts(),
-                                             'cart_currency' => $this->context->cart->id_currency,
-                                             'currencies' => $this->module->getCurrency((int) $this->context->cart->id_currency),
-                                             'total_amount' => $this->context->cart->getOrderTotal(true, Cart::BOTH),
-                                             'path' => $this->module->getPathUri(),
-                                             ));
+            'nb_products' => $this->context->cart->nbProducts(),
+            'cart_currency' => $this->context->cart->id_currency,
+            'currencies' => $this->module->getCurrency((int) $this->context->cart->id_currency),
+            'total_amount' => $this->context->cart->getOrderTotal(true, Cart::BOTH),
+            'path' => $this->module->getPathUri(),
+        ));
 
         // Set template
         $this->setTemplate('payment.tpl');
