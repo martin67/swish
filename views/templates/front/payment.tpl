@@ -39,7 +39,7 @@
         {l s='Your shopping cart is empty.' mod='swish'}
     </p>
 {else}
-    <form action="{$link->getModuleLink('swish', 'validation', [], true)|escape:'html'}" method="post">
+    <form action="{$link->getModuleLink('swish', 'validation', [], true)|escape:'htmlall':'UTF-8'}" method="post">
 	<div class="box cheque-box">
 		<h3 class="page-subheading">
             {l s='Swish Payment' mod='swish'}
