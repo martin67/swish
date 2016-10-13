@@ -29,7 +29,10 @@ class SwishValidationModuleFrontController extends ModuleFrontController
     {
         // Check if cart exists and all fields are set
         $cart = $this->context->cart;
-        if ($cart->id_customer == 0 || $cart->id_address_delivery == 0 || $cart->id_address_invoice == 0 || !$this->module->active) {
+        if ($cart->id_customer == 0 ||
+            $cart->id_address_delivery == 0 ||
+            $cart->id_address_invoice == 0 ||
+            !$this->module->active) {
             Tools::redirect('index.php?controller=order&step=1');
         }
 
@@ -70,11 +73,11 @@ class SwishValidationModuleFrontController extends ModuleFrontController
             (int) $currency->id,
             false,
             $customer->secure_key
-            );
+        );
 
         // Redirect on order confirmation page
         Tools::redirect(
             'index.php?controller=order-confirmation&id_cart='.$cart->id.'&id_module='.$this->module->id.'&id_order='.$this->module->currentOrder.'&key='.$customer->secure_key
-            );
+        );
     }
 }
