@@ -37,13 +37,13 @@
         {l s='Start Swish and enter the following values:' mod='swish'}
     </p><br>
     <p>
-        {l s='Recipient:' mod='swish'} <strong>{$SWISH_NUMBER}</strong><br>
-        {l s='Amount:' mod='swish'} <strong>{$total_to_pay}</strong><br>
-        {l s='Message:' mod='swish'} <strong>{$reference}</strong><br>
+        {l s='Recipient:' mod='swish'} <strong>{$SWISH_NUMBER|escape:'htmlall':'UTF-8'}</strong><br>
+        {l s='Amount:' mod='swish'} <strong>{$total_to_pay|escape:'htmlall':'UTF-8'}</strong><br>
+        {l s='Message:' mod='swish'} <strong>{$reference|escape:'htmlall':'UTF-8'}</strong><br>
     </p>
 
 	<p><br>
-        {l s='The recipient listed in Swish should be' mod='swish'} <strong>{$SWISH_OWNER}</strong><br>
+        {l s='The recipient listed in Swish should be' mod='swish'} <strong>{$SWISH_OWNER|escape:'htmlall':'UTF-8'}</strong><br>
 	</p><br>
 
     <p>
