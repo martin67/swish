@@ -20,6 +20,11 @@
 * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 * IN THE SOFTWARE.
+*
+* @author     Martin Hagelin
+* @copyright  2016 Martin Hagelin
+* @license    MIT License, https://opensource.org/licenses/MIT
+*
 *}
 
 <div class="row">
