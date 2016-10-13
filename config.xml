@@ -2,7 +2,7 @@
 <module>
 	<name>swish</name>
 	<displayName><![CDATA[Swish]]></displayName>
-	<version><![CDATA[1.0.0]]></version>
+	<version><![CDATA[1.0.1]]></version>
 	<description><![CDATA[Accept payments with Swish.]]></description>
 	<author><![CDATA[Martin Hagelin]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
