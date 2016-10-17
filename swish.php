@@ -33,12 +33,13 @@ class Swish extends PaymentModule
     {
         $this->name = 'swish';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->author = 'Martin Hagelin';
         $this->bootstrap = true;
         parent::__construct();
         $this->displayName = $this->l('Swish');
         $this->description = $this->l('Accept payments with Swish.');
+        $this->module_key = '805073a0f9fd1383c5ecbf6e139f987f';
     }
 
     public function install()
